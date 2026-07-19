@@ -1,0 +1,50 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Node / Expo
+node_modules/
+.expo/
+dist/
+*.tgz
+
+# ESP-IDF build
+firmware/build/
+firmware/managed_components/
+firmware/*.bin
+firmware/*.elf
+firmware/*.map
+
+# ML artifacts
+ml/datasets/raw/
+ml/checkpoints/
+*.onnx
+*.tflite
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Keys and certs
+*.pem
+*.key
+*.p12
+*.pfx
+certs/
+keys/
